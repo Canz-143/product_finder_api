@@ -87,6 +87,7 @@ def extract_search_terms(product_description):
 
 def find_shopping_links(product_description: str):
     search_terms = extract_search_terms(product_description)
+    print(f"[Gemini] Search terms: {search_terms}")
     if not search_terms:
         search_terms = [product_description]
     # Limit to top 3 search terms
