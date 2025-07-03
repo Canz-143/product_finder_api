@@ -20,7 +20,7 @@ def call_firecrawl_extractor(links):
             "Include website name."
         ),
         "scrapeOptions": {
-        "maxAge": 0
+        "maxAge": 604800000
       },
         "schema": {
             "type": "object",
