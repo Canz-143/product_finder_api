@@ -19,6 +19,7 @@ def call_firecrawl_extractor(links):
             "Only get the main price even if the product is out of stock, and the direct product page URL; one set per URL. "
             "Include website name."
         ),
+        "maxAge": 604800000,
         "schema": {
             "type": "object",
             "properties": {
