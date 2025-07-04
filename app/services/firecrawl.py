@@ -21,7 +21,7 @@ def call_firecrawl_extractor(links):
         ),
         "scrapeOptions": {
         "maxAge": 604800000
-      }
+      },
         "schema": {
             "type": "object",
             "properties": {
