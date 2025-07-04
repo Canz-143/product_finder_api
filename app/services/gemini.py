@@ -92,7 +92,7 @@ def find_shopping_links(product_description: str):
     if not search_terms:
         search_terms = [product_description]
     # Limit to top 3 search terms
-    search_terms = search_terms[:5]
+    search_terms = search_terms[:3]
 
     all_links = set()
     for term in search_terms:
