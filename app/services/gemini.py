@@ -100,13 +100,6 @@ def find_shopping_links(product_description: str):
 Use Google Search to find direct product pages for this search term:
 - {term}
 
-❌ Do NOT include:
-- Retailer homepages
-- Category pages
-- Search result pages
-- PDF files
-- Non direct product pages.
-
 ✅ Only provide direct product pages where the user can purchase the exact item.
 
 Output format: [Product Title](URL)
