@@ -7,7 +7,7 @@ from app.config import GOOGLE_API_KEY
 #gemini-2.5-flash-preview-05-20
 
 client = genai.Client()
-model_id = "gemini-2.5-flash-preview-05-20"
+model_id = "gemini-2.0-flash"
 search_tool = Tool(google_search=GoogleSearch())
 
 config = GenerateContentConfig(
