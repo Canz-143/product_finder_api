@@ -49,7 +49,7 @@ def call_firecrawl_extractor(links):
     if firecrawl_result.get("success") and firecrawl_result.get("id"):
         firecrawl_id = firecrawl_result["id"]
         print(f"[Firecrawl] Waiting 20 seconds before fetching result for id: {firecrawl_id}")
-        time.sleep(10)
+        time.sleep(5)
         get_url = f"https://api.firecrawl.dev/v1/extract/{firecrawl_id}"
         while True:
             get_response = requests.get(get_url, headers=headers)
