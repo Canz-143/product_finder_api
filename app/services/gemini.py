@@ -111,8 +111,6 @@ Use Google Search to find direct product pages for this search term:
 
 ✅ Only provide direct product pages where the user can purchase the exact item.
 
-Return **no more than 5 shopping links** for this search term.
-
 Output format: [Product Title](URL)
 
 If you cannot find any direct product pages, respond with: No direct product pages found.
