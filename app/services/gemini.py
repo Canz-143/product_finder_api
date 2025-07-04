@@ -7,7 +7,7 @@ from app.config import GOOGLE_API_KEY
 #gemini-2.5-flash-preview-05-20
 
 client = genai.Client()
-model_id = "gemini-2.5-pro"
+model_id = "gemini-2.5-flash-preview-05-20"
 search_tool = Tool(google_search=GoogleSearch())
 
 config = GenerateContentConfig(
@@ -105,8 +105,6 @@ Use Google Search to find direct product pages for this search term:
 - Category pages
 - Search result pages
 - PDF files
-- Social media
-- Aggregator or comparison sites
 - Non direct product pages.
 
 ✅ Only provide direct product pages where the user can purchase the exact item.
